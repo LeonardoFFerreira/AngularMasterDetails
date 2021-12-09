@@ -10,7 +10,7 @@ import { CategoryService } from './../../categories/shared/category.service';
 
 import { switchMap } from 'rxjs/operators';
 
-import { toastr } from "toastr";
+import toastr from "toastr";
 
 @Component({
   selector: 'app-entry-form',
