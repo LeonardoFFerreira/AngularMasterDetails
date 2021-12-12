@@ -1,4 +1,5 @@
 import { BaseResourceModel } from 'src/app/shared/models/base-resource.model';
+
 import { Category } from './../../categories/shared/category.model';
 
 export class Entry extends BaseResourceModel {
@@ -14,6 +15,10 @@ export class Entry extends BaseResourceModel {
         public category?: Category
     ) {
         super()
+    }
+
+    static fromJson(jsonData: any) {
+        return Object.assign(new Entry, jsonData);
     }
 
     static types = {
