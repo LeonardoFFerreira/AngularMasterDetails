@@ -79,7 +79,7 @@ export abstract class BaseResourceFormComponent<T extends BaseResourceModel> imp
         if (this.currentAction == "new")
             this.pageTitle = this.creationPageTitle();
         else {
-            this.pageTitle = this.creationPageTitle();
+            this.pageTitle = this.editionPageTitle();
         }
     }
 
