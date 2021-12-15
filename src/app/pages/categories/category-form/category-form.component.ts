@@ -27,7 +27,7 @@ export class CategoryFormComponent extends BaseResourceFormComponent<Category> {
     return "Cadastro de Nova Categoria";
   }
   protected editionPageTitle(): string {
-    const categoryName = this.resource.name || "";
-    return `Editando a Categoria ${categoryName}`;
+    const resourceName = this.resource.name || "";
+    return `Editando a Categoria ${resourceName}`;
   }
 }
