@@ -5,8 +5,8 @@
     "\\src\\app",
     "\\src\\app\\pages",
     "\\src\\app\\pages\\categories",
-    "\\src\\app\\pages\\categories\\category-list"
+    "\\src\\app\\pages\\categories\\category-form"
   ],
-  "SelectedNode": "\\src\\app\\pages\\categories\\category-list\\category-list.component.html",
+  "SelectedNode": "\\src\\app\\pages\\categories\\category-form\\category-form.component.ts",
   "PreviewInSolutionExplorer": false
 }

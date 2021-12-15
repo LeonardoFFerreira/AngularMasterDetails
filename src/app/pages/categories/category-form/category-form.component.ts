@@ -53,7 +53,7 @@ export class CategoryFormComponent implements OnInit, AfterContentChecked {
       this.currentAction = "edit";
   }
 
-  private buildCategoryForm() {
+  private buildResourceForm() {
     this.categoryForm = this.formBuilder.group({
       id: [null],
       name: [null, [Validators.required, Validators.minLength(2)]],
